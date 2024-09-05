@@ -12,12 +12,7 @@ module.exports = {
           --model=lama \
           --device=cuda \
           --port=8080 \
-          --enable-remove-bg \
-          --enable-interactive-seg --interactive-seg-model=sam2_base  --interactive-seg-device=cuda \
-          --enable-restoreformer --restoreformer-device cuda \
-          --enable-anime-seg \
-          --enable-realesrgan --realesrgan-model RealESRGAN_x4plus --realesrgan-device cuda \
-          --enable-gfpgan --gfpgan-device cuda",    // Edit with your custom commands
+          --enable-remove-bg",    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
