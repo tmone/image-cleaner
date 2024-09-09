@@ -12,7 +12,9 @@ module.exports = {
           --model=lama \
           --device=cuda \
           --port=8080 \
-          --enable-remove-bg",    // Edit with your custom commands
+          --enable-remove-bg \
+          --enable-interactive-seg \
+          --interactive-seg-device=cuda",    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
